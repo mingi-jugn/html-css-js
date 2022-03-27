@@ -1,3 +1,14 @@
+input:focus,
+select:focus,
+option:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+body {
+  font-family: "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum,
+    sans-serif;
+}
 a {
   color: black;
   text-decoration-line: none;
@@ -28,6 +39,7 @@ a:hover {
 .header_img {
   width: 1080px;
   height: 338px;
+  border-radius: 30px;
 }
 .sideAndMain {
   display: flex;
@@ -242,4 +254,28 @@ a:hover {
   width: 200px;
   height: 700px;
   background-color: antiquewhite;
+}
+
+.main_search form {
+  height: 74px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px #f2f2f2;
+  width: 861px;
+}
+
+.main_search form input:nth-child(1) {
+  width: 201px;
+  height: 34px;
+  border: 0px;
+  padding: 0px;
+  border-color: antiquewhite;
+}
+.main_search form input:nth-child(2) {
+  width: 56px;
+  height: 36px;
+  background-color: #03c75a;
+  border: 0px;
 }
