@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lookup_style.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,8 +14,6 @@
             <div class="header_first_child"> 
                 <div>Law School</div>
                 <div>
-                    <a href="login.html">로그인</a>
-                    <span>|</span>
                     <a href="#">아이디 찾기</a>
                     <span>|</span>
                     <a href="#">비밀번호 찾기</a>
@@ -73,57 +71,35 @@
                     <h1>광고</h1>
                 </div>
             </div>
-            <div class="lookup_main">
-                <div class="lookup_title">
-                    <h4>자유게시판</h4>
-                    <h2>제목입니다</h1>
-                    <div class="lookup_info">
-                        <img src="https://ssl.pstatic.net/static/cafe/cafe_pc/default/cafe_profile_70.png" alt="">
+            <div class="for_login_main_And_Advertise">
+                <div class="login_main">
+                    <form action="#" class="login_field"> 
                         <div>
-                            <div class="lookup_name">
-                                <div>이아람</div>
-                                <a href="#">쪽지 보내기</a>
-                            </div>
-                            <div>
-                                <span>2022.03.26. 08:07</span>
-                                조회<span style="margin-left: 5px;">8</span>
-                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                            </svg>
+                            <input type="text" placeholder="아이디">
                         </div>
-                    </div>
-                </div>
-                <div class="lookup_content">
-                    반갑습니다 잘 부탁드립니다
-                </div>
-                <div class="lookup_content_bottom">
-                    <a href="#"> 
-                        <span>이아람</span>님의 게시글 더보기>
-                    </a>
-                    <div class="love_comment">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-                          </svg>
-                        좋아요<span> 3</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-dots" viewBox="0 0 16 16">
-                            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
-                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                          </svg>
-                        댓글<span> 1</span>
-                    </div>
-                </div>
-                <h2>댓글</h2>
-                <div class="comment"> 
-                    <div class="comment_input">
-                        <div  style="margin-bottom:15px;">
-                            html 장인이 되고파
-                        </div>
-                        <form action="#">
-                        <textarea name="comment" id="comment" cols="30" rows="6" placeholder="댓글을 남겨보세요" onkeyup="fn_checkByte(this)"></textarea>
-                        <input style="margin-right: 15px;" type="submit">
-                        (<span id="nowByte">0</span>/3000bytes)
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
+                                <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                                <path d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z"/>
+                            </svg>
+                            <input type="password" placeholder="비밀번호">
+                        </div> 
+                        <input type="submit" class="login_input" value="로그인">
                     </form>
+                    <div class="passwordAndIdAndSign">
+                        <a href="#">아이디 찾기</a>
+                        <span>|</span>
+                        <a href="#">비밀번호 찾기</a>
+                        <span>|</span>
+                        <a href="#">회원가입</a>
                     </div>
+                </div> 
+                <div class="login_advertise">
+                    <h1>광고</h1>
                 </div>
-                <div class="advertise_bottom"><h1>광고</h1></div>
             </div>
             <div class="left-advertise">
                 <h1>광고</h1>
@@ -131,6 +107,5 @@
         </div>
     
     </div>
-    <script src="js/lookup_comment.js"></script>
 </body>
 </html>
